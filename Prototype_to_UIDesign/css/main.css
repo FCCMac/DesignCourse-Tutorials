@@ -1,0 +1,77 @@
+@import url("https://gonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+  background: #eeeeee;
+  font-size: 18px;
+  height: 100vh;
+}
+
+body .container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+body .container .logo {
+  width: 120px;
+}
+
+body .container h1 {
+  margin: 1em 0;
+}
+
+body .container p {
+  line-height: 1.8rem;
+}
+
+body .container .left {
+  background: linear-gradient(160deg, #601df7 0%, #8800ff 100%);
+  padding: 1em;
+}
+
+body .container .left p, body .container .left h1 {
+  color: white;
+}
+
+body .container .right p {
+  margin: 2em 0 1em;
+}
+
+body .container .light {
+  color: rgba(255, 255, 255, 0.7) !important;
+  margin-top: 2em;
+}
+
+body .container input, body .container button {
+  width: calc(100% - 3em);
+  padding: 0.5em;
+  font-size: 1.3rem;
+  outline: none;
+  margin: 1em;
+}
+
+body .container button {
+  width: calc(100% - 2em);
+  margin: 0;
+  background: #8800ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.attention {
+  width: 100%;
+  margin: 0.5em auto 0;
+  text-align: center;
+}
+
+.attention .me {
+  margin-top: 2em;
+  width: 3em;
+  border-radius: 50%;
+}
+
+.attention .arrow {
+  width: 15em;
+}
+/*# sourceMappingURL=main.css.map */
